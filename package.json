@@ -1,0 +1,16 @@
+{
+  "name": "blog-application",
+  "version": "1.0.0",
+  "description": "Blog mini project using Node.js, Express.js, MongoDB and Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongodb": "^7.7.0",
+    "mongoose": "^8.24.4"
+  }
+}
