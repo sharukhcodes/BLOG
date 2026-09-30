@@ -46,6 +46,12 @@ npm start
 
 5. Open <http://localhost:5000>.
 
+## Deploy to Vercel
+
+1. Import this GitHub repository into Vercel.
+2. In the Vercel project settings, add `MONGO_URI` as an environment variable for Production (and Preview if needed). Use a MongoDB Atlas connection string; `.env` is not uploaded.
+3. Deploy the project. Vercel serves the files in `public/` and runs the API through `api/[...path].js`.
+
 ## MongoDB setup
 
 **Option A - Local MongoDB (easiest for a lab PC)**
